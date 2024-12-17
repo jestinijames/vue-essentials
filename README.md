@@ -19,7 +19,16 @@ pnpm install
 
 ## VSCode Prep
 
-install Vue-offical
+install Vue Offical
+
+## Tailwind Setup
+
+```sh
+pnpm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npx tailwindcss init -p
+```
+
+Follow guide <https://v2.tailwindcss.com/docs/guides/vue-3-vite>
 
 ### Compile and Hot-Reload for Development
 
@@ -39,3 +48,4 @@ pnpm build
 2. CompositionApi
 3. CompositionApiReduced
 4. TasksVue
+5. router - vue router can be understood by going into src/router/index.js, main.js and app.vue.
