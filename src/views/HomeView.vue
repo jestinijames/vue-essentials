@@ -1,7 +1,7 @@
 <script setup>
 import Hero from "@/components/Hero.vue";
 import HomeCards from "@/components/HomeCards.vue";
-import JobListings from "@/components/JobListings.vue";
+import JobListingsJSONServer from "@/components/JobListingsJSONServer.vue";
 </script>
 
 <template>
@@ -12,5 +12,5 @@ import JobListings from "@/components/JobListings.vue";
   />
   <HomeCards />
   <!-- Passing a limit of 3 jobs as props and a showButton -->
-  <JobListings :limit="3" :showButton="true" />
+  <JobListingsJSONServer :limit="3" :showButton="true" />
 </template>

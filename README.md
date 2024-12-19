@@ -49,3 +49,4 @@ pnpm build
 3. CompositionApiReduced
 4. TasksVue
 5. router - vue router can be understood by going into src/router/index.js, main.js and app.vue.
+6. Setting proxy for url (localhost:5000) can be done in vite.config.js

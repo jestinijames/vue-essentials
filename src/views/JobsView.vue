@@ -1,10 +1,10 @@
 <script setup>
-import JobListings from '@/components/JobListings.vue';
+import JobListingsJSONServer from '@/components/JobListingsJSONServer.vue';
 
 
 </script>
 
 
 <template>
-    <JobListings/>
+    <JobListingsJSONServer/>
 </template>
